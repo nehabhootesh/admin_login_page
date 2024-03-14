@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Check if the connected account is allowed
                 if (accounts.length > 0 && accounts[0].toLowerCase() === allowedAddress.toLowerCase()) {
                     // Redirect to verification page
-                    window.location.href = 'http://localhost:3100';
+                    window.location.href = 'https://admin-dashboard-f9p0.onrender.com';
                 } else {
                     alert('Unauthorized access. Please use the specified MetaMask account.');
                 }
